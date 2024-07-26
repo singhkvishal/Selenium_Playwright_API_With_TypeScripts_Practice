@@ -1,0 +1,16 @@
+{
+  "name": "selenium_playwright_api_with_javascripts_practice",
+  "version": "1.0.0",
+  "description": "<h2 align=\"center\">\r   Welcome to Vishal Singh's World!\r   <img src=\"https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif\" width=\"28\">\r </h2>",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^20.14.12",
+    "playwright": "^1.45.3",
+    "typescript": "^5.5.4"
+  }
+}
