@@ -12,5 +12,8 @@
     "@types/node": "^20.14.12",
     "playwright": "^1.45.3",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "node": "^20.16.0"
   }
 }

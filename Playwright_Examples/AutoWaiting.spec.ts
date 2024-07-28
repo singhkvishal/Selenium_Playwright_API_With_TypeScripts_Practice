@@ -18,7 +18,7 @@ test.use({
 //It auto-waits for all the relevant checks to pass and only then performs the requested action. 
 //If the required checks do not pass within the given timeout, action fails with the TimeoutError.
 test ('2- Default timeout is 30 sec, Increase to 50 Sec',async() =>{
-    const browser: Browser=await chromium.launch({healess:false,channel:'chrome'});
+    const browser: Browser=await firefox.launch({healess:false});
     const page:Page =await browser.newPage();
     await page.goto('https://www.spicejet.com/');
 
