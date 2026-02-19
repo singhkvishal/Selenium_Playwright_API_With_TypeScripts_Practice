@@ -9,11 +9,27 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.58.2",
-    "@types/node": "^20.14.12",
+    "@types/node": "^20.19.33",
+    "@types/selenium-webdriver": "^4.35.5",
     "playwright": "^1.45.3",
-    "typescript": "^5.5.4"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   },
   "dependencies": {
-    "node": "^20.16.0"
-  }
+    "chromedriver": "^145.0.4",
+    "node": "^20.16.0",
+    "selenium-webdriver": "^4.40.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhkvishal/Selenium_Playwright_API_With_TypeScripts_Practice.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/singhkvishal/Selenium_Playwright_API_With_TypeScripts_Practice/issues"
+  },
+  "homepage": "https://github.com/singhkvishal/Selenium_Playwright_API_With_TypeScripts_Practice#readme"
 }
