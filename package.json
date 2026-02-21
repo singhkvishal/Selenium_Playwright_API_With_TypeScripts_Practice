@@ -11,12 +11,17 @@
     "@playwright/test": "^1.58.2",
     "@types/node": "^20.19.33",
     "@types/selenium-webdriver": "^4.35.5",
-    "playwright": "^1.45.3",
+    "playwright": "^1.58.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "@langchain/community": "^1.1.16",
+    "@langchain/core": "^1.1.26",
+    "@langchain/openai": "^1.2.8",
     "chromedriver": "^145.0.4",
+    "langchain": "^1.2.25",
+    "langsmith": "^0.5.4",
     "node": "^20.16.0",
     "selenium-webdriver": "^4.40.0"
   },
@@ -27,7 +32,7 @@
     "type": "git",
     "url": "git+https://github.com/singhkvishal/Selenium_Playwright_API_With_TypeScripts_Practice.git"
   },
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/singhkvishal/Selenium_Playwright_API_With_TypeScripts_Practice/issues"
   },
